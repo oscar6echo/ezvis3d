@@ -1,0 +1,6 @@
+Name	Type	Required	Description
+x	number	yes	Location on the x-axis.
+y	number	yes	Location on the y-axis.
+z	number	yes	Location on the z-axis.
+style	number	no	The data value, required for graph styles dot-color and dot-size.
+filter	*	no	Filter values used for the animation. This column may have any type, such as a number, string, or Date.

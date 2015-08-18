@@ -1,0 +1,51 @@
+Name	Type	Default	Description
+animationInterval	number	1000	The animation interval in milliseconds. This determines how fast the animation runs.
+animationPreload	boolean	false	If false, the animation frames are loaded as soon as they are requested. if animationPreload is true, the graph will automatically load all frames in the background, resulting in a smoother animation as soon as all frames are loaded. The load progress is shown on screen.
+animationAutoStart	boolean	false	If true, the animation starts playing automatically after the graph is created.
+axisColor	string	'#4D4D4D'	The color of the axis lines and the text along the axis.
+backgroundColor	string or Object	{fill: 'white', stroke: 'gray', strokeWidth: 1}	The background color for the main area of the chart. Can be either a simple HTML color string, for example: 'red' or '#00cc00', or an object with the following properties.
+backgroundColor.fill	string	'white'	The chart fill color, as an HTML color string.
+backgroundColor.stroke	string	'gray'	The color of the chart border, as an HTML color string.
+backgroundColor.strokeWidth	number	1	The border width, in pixels.
+cameraPosition	Object	{horizontal: 1.0, vertical: 0.5, distance: 1.7}	Set the initial rotation and position of the camera. The object cameraPosition contains three parameters: horizontal, vertical, and distance. Parameter horizontal is a value in radians and can have any value (but normally in the range of 0 and 2*Pi). Parameter vertical is a value in radians between 0 and 0.5*Pi. Parameter distance is the (normalized) distance from the camera to the center of the graph, in the range of 0.71 to 5.0. A larger distance puts the graph further away, making it smaller. All parameters are optional.
+cameraPosition.horizontal	number	1.0	Parameter horizontal is a value in radians and can have any value (but normally in the range of 0 and 2*Pi). This parameter is optional.
+cameraPosition.vertical	number	0.5	Parameter vertical is a value in radians between 0 and 0.5*Pi. This parameter is optional.
+cameraPosition.distance	number	1.7	Parameter distance is the (normalized) distance from the camera to the center of the graph, in the range of 0.71 to 5.0. A larger distance puts the graph further away, making it smaller. This parameter is optional.
+dataColor	string or object	{fill: '#7DC1FF', stroke: '#3267D2', strokeWidth: 1}	When dataColor is a string, it will set the color for both border and fill color of dots and bars. Applicable for styles dot-size, bar-size, and line. When an object, it can contain the properties descibed below.
+dataColor.fill	string	'#7DC1FF'	The border color of the dots or bars. Applicable when using styles dot-size or bar-size.
+dataColor.stroke	string	'#3267D2'	The fill color of the dots or bars. Applicable when using styles dot-size, bar-size, or line.
+dataColor.strokeWidth	number	1	The line width of dots, bars and lines. Applicable for all styles.
+gridColor	string	'#D3D3D3'	The color of the grid lines.
+height	string	'400px'	The height of the graph in pixels or as a percentage.
+keepAspectRatio	boolean	true	If keepAspectRatio is true, the x-axis and the y-axis keep their aspect ratio. If false, the axes are scaled such that they both have the same, maximum with.
+showAnimationControls	boolean	true	If true, animation controls are created at the bottom of the Graph. The animation controls consists of buttons previous, start/stop, next, and a slider showing the current frame. Only applicable when the provided data contains an animation.
+showGrid	boolean	true	If true, grid lines are draw in the x-y surface (the bottom of the 3d graph).
+showPerspective	boolean	true	If true, the graph is drawn in perspective: points and lines which are further away are drawn smaller. Note that the graph currently does not support a gray colored bottom side when drawn in perspective.
+showShadow	boolean	false	Show shadow on the graph.
+style	string	'dot'	The style of the 3d graph. Available styles: bar, bar-color, bar-size, dot, dot-line, dot-color, dot-size, line, grid, or surface
+tooltip	boolean | function	false	Show a tooltip showing the values of the hovered data point. The contents of the tooltip can be customized by providing a callback function as tooltip. In this case the function is called with an object containing parameters x, y, and z argument, and must return a string which may contain HTML.
+valueMax	number	none	The maximum value for the value-axis. Only available in combination with the styles dot-color and dot-size.
+valueMin	number	none	The minimum value for the value-axis. Only available in combination with the styles dot-color and dot-size.
+verticalRatio	number	0.5	A value between 0.1 and 1.0. This scales the vertical size of the graph When keepAspectRatio is set to false, and verticalRatio is set to 1.0, the graph will be a cube.
+width	string	'400px'	The width of the graph in pixels or as a percentage.
+xBarWidth	number	none	The width of bars in x direction. By default, the width is equal to the distance between the data points, such that bars adjoin each other. Only applicable for styles 'bar' and 'bar-color'.
+xCenter	string	'55%'	The horizontal center position of the graph, as a percentage or in pixels.
+xMax	number	none	The maximum value for the x-axis.
+xMin	number	none	The minimum value for the x-axis.
+xStep	number	none	Step size for the grid on the x-axis.
+xValueLabel	function	none	A function for custom formatting of the labels along the x-axis, for example function (x) {return (x * 100) + '%'}.
+yBarWidth	number	none	The width of bars in y direction. By default, the width is equal to the distance between the data points, such that bars adjoin each other. Only applicable for styles 'bar' and 'bar-color'.
+yCenter	string	'45%'	The vertical center position of the graph, as a percentage or in pixels.
+yMax	number	none	The maximum value for the y-axis.
+yMin	number	none	The minimum value for the y-axis.
+yStep	number	none	Step size for the grid on the y-axis.
+yValueLabel	function	none	A function for custom formatting of the labels along the y-axis, for example function (y) {return (y * 100) + '%'}.
+zMin	number	none	The minimum value for the z-axis.
+zMax	number	none	The maximum value for the z-axis.
+zStep	number	none	Step size for the grid on the z-axis.
+zValueLabel	function	none	A function for custom formatting of the labels along the z-axis, for example function (z) {return (z * 100) + '%'}.
+xLabel	String	x	Label on the X axis.
+yLabel	String	y	Label on the Y axis.
+zLabel	String	z	Label on the Z axis.
+filterLabel	String	time	Label for the filter column.
+legendLabel	String	value	Label for the style description.

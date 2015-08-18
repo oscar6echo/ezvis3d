@@ -1,0 +1,9 @@
+Method	Return Type	Description
+animationStart()	none	Start playing the animation. Only applicable when animation data is available.
+animationStop()	none	Stop playing the animation. Only applicable when animation data is available.
+getCameraPosition()	An object with parameters horizontal, vertical and distance	Returns an object with parameters horizontal, vertical and distance, which each one of them is a number, representing the rotation and position of the camera.
+redraw()	none	Redraw the graph. Useful after the camera position is changed externally, when data is changed, or when the layout of the webpage changed.
+setData(data)	none	Replace the data in the Graph3d.
+setOptions(options)	none	Update options of Graph3d. The provided options will be merged with current options.
+setSize(width, height)	none	Parameters width and height are strings, containing a new size for the graph. Size can be provided in pixels or in percentages.
+setCameraPosition (pos)	{horizontal: 1.0, vertical: 0.5, distance: 1.7}	Set the rotation and position of the camera. Parameter pos is an object which contains three parameters: horizontal, vertical, and distance. Parameter horizontal is a value in radians and can have any value (but normally in the range of 0 and 2*Pi). Parameter vertical is a value in radians between 0 and 0.5*Pi. Parameter distance is the (normalized) distance from the camera to the center of the graph, in the range of 0.71 to 5.0. A larger distance puts the graph further away, making it smaller. All parameters are optional.
