@@ -9,10 +9,9 @@ library.
 configuration options of the library as described in their APIs,
 directly from the `Jupyter notebook`_.
 
-You just need to store the data in a `pandas`_ dataframe.
-See the examples in these notebooks:
-+ the `demo notebook`_
-+ a `Black and Scholes formula viewer`_.
+You just need to store the data in a `pandas`_ dataframe. See the
+examples in these notebooks: + the `demo notebook`_. + a `Black and
+Scholes formula viewer`_.
 
 To install run from command line:
 
