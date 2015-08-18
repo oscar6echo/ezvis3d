@@ -22,5 +22,5 @@ To install run from command line:
 .. _vis.js Graph3d: http://visjs.org/graph3d_examples.html
 .. _Jupyter notebook: http://jupyter.org/
 .. _pandas: http://pandas.pydata.org/
-.. _demo notebook: http://nbviewer.ipython.org/github/oscar6echo/ezvis3d/blob/master/demo_ezvis3d.ipynb
+.. _demo notebook: http://nbviewer.ipython.org/github/oscar6echo/ezvis3d/blob/master/demo_ezvisd3.ipynb
 .. _Black and Scholes formula viewer: http://nbviewer.ipython.org/github/oscar6echo/ezvis3d/blob/master/BlackScholesViewer.ipynb

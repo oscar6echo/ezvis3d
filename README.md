@@ -7,7 +7,7 @@
 
 You just need to store the data in a [pandas](http://pandas.pydata.org/) dataframe.
 See the examples in these notebooks:
-+ the [demo notebook](http://nbviewer.ipython.org/github/oscar6echo/ezvis3d/blob/master/demo_ezvis3d.ipynb).
++ the [demo notebook](http://nbviewer.ipython.org/github/oscar6echo/ezvis3d/blob/master/demo_ezvisd3.ipynb).
 + a [Black and Scholes formula viewer](http://nbviewer.ipython.org/github/oscar6echo/ezvis3d/blob/master/BlackScholesViewer.ipynb).
 
 To install run from command line:
