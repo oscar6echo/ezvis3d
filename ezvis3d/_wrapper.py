@@ -1,8 +1,8 @@
 
 from IPython.display import HTML, display
 
-from _config import NAME, TYPE, DEFAULT, DESCRIPTION
-from _state import State, state_VIS3D
+from ._config import NAME, TYPE, DEFAULT, DESCRIPTION
+from ._state import State, state_VIS3D
 
 
 
@@ -45,7 +45,7 @@ class Wrapper(object):
         _dic = dict(self.__dict__)
         _dic.pop('path')
 
-        for k in _dic.keys():
+        for k in list(_dic.keys()):
             if isinstance(_dic[k], list):
                 for i, e in enumerate(_dic[k]):
                     if isinstance(e, Wrapper):

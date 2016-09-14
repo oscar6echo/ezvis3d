@@ -6,8 +6,8 @@ import uuid
 from IPython.display import HTML
 
 
-from _config import JS_LIBS_ONE, CSS_LIBS_ONE, JS_SAVE
-from scripts import JS_JSON_PARSE_OPTION, JS_JSON_PARSE_DATA
+from ._config import JS_LIBS_ONE, CSS_LIBS_ONE, JS_SAVE
+from .scripts import JS_JSON_PARSE_OPTION, JS_JSON_PARSE_DATA
 
 
 

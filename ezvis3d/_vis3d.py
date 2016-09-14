@@ -1,6 +1,6 @@
 
-from _wrapper import Wrapper
-from _plot import plot, html
+from ._wrapper import Wrapper
+from ._plot import plot, html
 
 
 class Vis3d(Wrapper):

@@ -1,7 +1,7 @@
 
 import os
 import json
-from _config import VIS3D_OPTION_FILE, VIS3D_METHOD_FILE, VIS3D_DATASET_FILE, \
+from ._config import VIS3D_OPTION_FILE, VIS3D_METHOD_FILE, VIS3D_DATASET_FILE, \
                     API_DIR
 
 
