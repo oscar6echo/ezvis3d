@@ -4,10 +4,6 @@
 # subfolders
 recursive-include ezvis3d/api *
 
-# Demo notebook
-include demo_ezvis3e.ipynb
-include BlackScholesViewer.ipynb
-
 # Misc
 include LICENSE
 include README.rst
