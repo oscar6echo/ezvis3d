@@ -1,6 +1,6 @@
-###ezhc
+# ezvis3d
 
-**ezvis3d** stands for easy vis.js/Graph3d.
+**ezvis3d** stands for easy vis.js/Graph3d.  
 [vis.js Graph3d](http://visjs.org/graph3d_examples.html) is a popular, flexible, versatile, user friendly 3d visualisation javascript library.
 
 **ezvis3d** is a wrapper that lets you transparently access the full configuration options of the library as described in their APIs, directly from the [Jupyter notebook](http://jupyter.org/).

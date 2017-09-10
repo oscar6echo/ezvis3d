@@ -1,0 +1,14 @@
+# necessary to push to PyPI
+# cf. https://tom-christie.github.io/articles/pypi/
+
+# subfolders
+recursive-include ezvis3d/api *
+
+# Demo notebook
+include demo_ezvis3e.ipynb
+include BlackScholesViewer.ipynb
+
+# Misc
+include LICENSE
+include README.rst
+include requirements.txt
