@@ -22,3 +22,7 @@ To install run from command line:
 ::
 
     pip install ezvis3d
+
+.. raw:: html
+
+   <!-- pandoc --from=markdown --to=rst --output=README.rst README.md -->
