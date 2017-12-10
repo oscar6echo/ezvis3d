@@ -28,5 +28,4 @@ __package_data__ = {
           'api/ezvis3d_option.json',
           'api/ezvis3d_option.tsv'
          ]
-    },
 }
