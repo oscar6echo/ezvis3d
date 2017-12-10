@@ -8,6 +8,3 @@ __all__ = ['Vis3d']
 
 
 load_js_libs()
-print('Open console to check js libs were loaded in page')
-
-
