@@ -8,15 +8,12 @@
 # python setup.py sdist upload -r pypi
 
 
-from os import path
-from codecs import open
 from setuptools import setup, find_packages
 from distutils.util import convert_path
 from pip.req import parse_requirements
 
 module = 'ezvis3d'
 
-here = path.abspath(path.dirname(__file__))
 
 meta_ns = {}
 ver_path = convert_path(module + '/__meta__.py')
@@ -27,6 +24,7 @@ name = meta_ns['__name__']
 packages = meta_ns['__packages__']
 version = meta_ns['__version__']
 description = meta_ns['__description__']
+long_description = meta_ns['__long_description__']
 author = meta_ns['__author__']
 author_email = meta_ns['__author_email__']
 url = meta_ns['__url__']
