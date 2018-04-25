@@ -5,12 +5,14 @@ from IPython.display import HTML, display
 
 
 JS_LIBS_ONE = json.dumps([
-    'https://cdnjs.cloudflare.com/ajax/libs/vis/4.7.0/vis.js',
+    # 'https://cdnjs.cloudflare.com/ajax/libs/vis/4.7.0/vis.js',
+    'https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.js'
 ])
 
 JS_LIBS_ONE_sep = ';'.join(map(lambda x: 'console.log("'+x+'")', json.loads(JS_LIBS_ONE)))+';'
 
-CSS_LIBS_ONE = 'https://cdnjs.cloudflare.com/ajax/libs/vis/4.7.0/vis.css'
+# CSS_LIBS_ONE = 'https://cdnjs.cloudflare.com/ajax/libs/vis/4.7.0/vis.css'
+CSS_LIBS_ONE = 'https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.css'
 
 
 JS_LOAD = """<script>
