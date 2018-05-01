@@ -2,8 +2,7 @@
 __name__ = 'ezvis3d'
 name_url = __name__.replace('_', '-')
 
-__packages__ = [__name__]
-__version__ = '0.2.3'
+__version__ = '0.2.4'
 __description__ = 'easy vis.js Graph3d js library wrapper, accessible from pandas dataframes in the IPython notebook'
 __long_description__ = 'See github repo'
 __author__ = 'oscar6echo'
@@ -32,3 +31,5 @@ __package_data__ = {
      'api/ezvis3d_option.tsv'
      ]
 }
+__zip_safe__ = False
+__entry_points__ = {}
