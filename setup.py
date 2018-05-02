@@ -60,5 +60,7 @@ setup(
     packages=packages,
     install_requires=install_requires,
     include_package_data=include_package_data,
-    package_data=package_data
+    package_data=package_data,
+    zip_safe=zip_safe,
+    entry_points=entry_points
 )
